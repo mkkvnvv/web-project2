@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony of the World</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+          <h1 class="logo">Harmony of the World</h1>
+          <nav class="nav">
+            <div class="hamburger" id="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul id="nav-menu">
+              <li><a href="./index.html">Home page</a></li>
+              <li><a href="./about.html">About me</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="./contact.html">Contact me</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <h1 class="centered"><u>About me</u></h1> 
+
+      <div class="section1">
+        <img src="./images/optimized-photoofme3.jpeg" alt="Photo 1" class="image">
+        <div class="text">
+          <p>Good morning to those who read this in the morning, and good evening to those who visited this site in the evening! My name is Sasha, I am 19 years old and I lived my 16 years in Ukraine after which I began to build a life in a small town in Scotland. Now I am studying at 
+            <a href="https://www.cityofglasgowcollege.ac.uk" target="_blank">City of Glasgow college</a>
+            for Digital Design, and I am very happy that I am receiving this particular education! My creativity is manifested in many areas, for example, 
+            <i>photography</i>
+             - I really love to photograph the streets of different countries and cities, people, animals and various little things. I can convey the beauty of any object through photography, be it old architecture or an ordinary trash can. I also love to 
+             <i>write music</i>, <i>shoot videos</i>, <i>draw</i>, <i>play instruments</i>, knit and even try to <i>write my own book</i>,
+          </p>
+        </div>
+      </div>
+      <hr />
+      <p class="centered">in short - to do something with my own hands.</p>
+      <hr />
+      
+      <div class="section2">
+        <img src="./images/optimized-photoofme1.jpeg" alt="Photo 2" class="image">
+        <div class="text">
+          <p> I know several languages, so I think I can come to an agreement with absolutely any person! I speak <b>Ukrainian, English, Polish and Russian</b>. Just like all people,
+            <span class="highlight"> I have a dream!</span>
+             I dream of becoming a sought-after designer in all its fields, I like design, I like to create something with my own hands and share it with people, I want to become an inspiration for someone and make a big contribution to our common future.
+          </p>
+        </div>
+      </div>
+
+<footer>
+  <div class="social-icons" >
+    <a href="https://www.facebook.com/profile.php?id=100086633640966" target="_blank">
+      <img src="./icons/facebook--v1.png" alt="Facebook" />
+    </a>
+  
+    <a href="https://www.instagram.com/mkkvnvv/" target="_blank">
+      <img src="./icons/instagram-new.png" alt="Instagram" />
+    </a>
+  
+    <a href="https://x.com/mkkvnvvv" target="_blank">
+      <img src="./icons/x.png" alt="X" />
+    </a>
+  
+    <a href="https://wa.me/447379498694?text=Hi!%20I%20have%20a%20question" target="_blank">
+      <img src="./icons/whatsapp.png" alt="WhatsApp" />
+    </a>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger-menu');
+    const navMenu = document.getElementById('nav-menu');
+    
+    hamburger.addEventListener('click', function() {
+      navMenu.classList.toggle('active');
+    });
+  });
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony of the World</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+          <h1 class="logo">Harmony of the World</h1>
+          <nav class="nav">
+            <div class="hamburger" id="hamburger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul id="nav-menu">
+              <li><a href="./index.html">Home page</a></li>
+              <li><a href="./about.html">About me</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="./contact.html">Contact me</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <h1 class="centered">
+      <u>Beauty is everywhere</u>
+    </h1>
+    <h3 class="center">In nature, architecture, animals and most importantly - in people.</h3>
+    <section class="image-text">
+        <div class="container image-text-container">
+          <div class="image-block">
+            <img src="./images/optimized-photoofme2.jpeg" alt="Harmony Image">
+          </div>
+          <div class="text-block">
+            <div class="image-container">
+            <p>"My goal is to show people the beauty that surrounds them in <strong>everyday life</strong>, which is often overlooked. The beauty that is stored on ordinary streets, in flowers that grow without any human help, in the emotions and actions of people, in a cute and kind cat that ran across your path, in a cup of coffee that you drink before work, in little children who smile and laugh loudly, in natural sounds, be it the whistling of air, the flow of water or the blazing of fire."
+            </p>
+          </div>
+        </div>
+      </section>
+
+<footer>
+  <div class="social-icons" >
+    <a href="https://www.facebook.com/profile.php?id=100086633640966" target="_blank">
+      <img src="./icons/facebook--v1.png" alt="Facebook" />
+    </a>
+  
+    <a href="https://www.instagram.com/mkkvnvv/" target="_blank">
+      <img src="./icons/instagram-new.png" alt="Instagram" />
+    </a>
+  
+    <a href="https://x.com/mkkvnvvv" target="_blank">
+      <img src="./icons/x.png" alt="X" />
+    </a>
+  
+    <a href="https://wa.me/447379498694?text=Hi!%20I%20have%20a%20question" target="_blank">
+      <img src="./icons/whatsapp.png" alt="WhatsApp" />
+    </a>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger-menu');
+    const navMenu = document.getElementById('nav-menu');
+    
+    hamburger.addEventListener('click', function() {
+      navMenu.classList.toggle('active');
+    });
+  });
+</script>
+
+</body>
+
+</html>
